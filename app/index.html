@@ -1,16 +1,84 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 <head>
-<title>привет</title>
+    <meta http-equiv="Content-Type" content="text/html" ;charset=UTF-8 />
+    <meta name="description" content="тестовый сайт" />
+    <link href="/img/fav.jpg" rel="shortcut icon" type="image/x-icon" />
+    <title>Тестовый сайт</title>
 </head>
 <body>
-<h1>Привет Gulp</h1>
-<p>Изучаем Git</p>
-<p>изучаем консоль</p>
-<p>Изучили ветки</p>
-<style>
- html {
-	color: red;
- }
-</style>
+    <div id="wrapper" >
+        <header>
+            <div id="logo">
+                <a href="/index.html" title="На главную страницу"><img src="/img/logotype.jpg" title="Логотип" alt="Логотип" /></a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="/index.html" class="active">ГЛАВНАЯ</a></li>
+                    <li><a href="/about.html" class="active_1">О НАС</a></li>
+                    <li><a href="/services.html" class="active_1">ВИДЫ УСЛУГ</a></li>
+                    <li><a href="/portfolio.html" class="active_1">ФОТОГАЛЕРЕЯ</a></li>
+                    <li><a href="/contacts.html" class="active_1">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="content">
+            <div class="content-box">
+                <h2>Немного о нас:</h2>
+                <p>Профессиональное загородное строительство.</p>
+                <p>Опыт работы на рынке более 20 лет.Строим дома из различных материалов,каркасные,из бруса,кирпичные,из пеноблоков,бревна,заборы всех видов...  </p>
+                <p><a href="/about.html" class="active_1"> УЗНАТЬ БОЛЬШЕ...</a></p>
+            </div>
+            <div class="content-box">
+                <h2>Преимущества работы с нами:</h2>
+                <ul>
+                    <li>Опыт работы более 20 лет! </li>
+                    <li>Работаем без посредников!</li>
+                    <li>Индивидуальный подход к каждому клиенту!</li>
+                    <li>Расчитаем необходимые материалы,закупим,доставим на объект!</li>
+                    <li>Все "под ключ"!</li>
+                </ul>
+            </div>
+            <div class="content-box" id="content-box">
+                <h2>Услуги:</h2>
+                <ul>
+                    <li>Строительство загородных домов,коттеджей,бань.</li>
+                    <li>Строительство заборов.</li>
+                    <li>Строительство хозблоков,колодцев,прокладка дренажей и многое другое...</li>
+                </ul>
+                <p><a href="/services.html" class="active_1"> УЗНАТЬ БОЛЬШЕ...</a></p>
+            </div>
+        </div>
+         <div id="portfolio">
+             <h2 id="ourportfolio">Примеры работ</h2>
+             <div class="potfolio_image">
+                 <img src="/img/portfolio_1.jpg"  alt="Портфолио 1" />
+                 <a href="/portfolio.html">Посмотреть &raquo;</a>
+             </div>
+             <div class="potfolio_image" >
+                 <img src="/img/portfolio_2.jpg" alt="Портфолио 2" />
+                 <a href="/portfolio.html">Посмотреть &raquo;</a> 
+             </div>
+             <div class="potfolio_image">
+                 <img src="/img/portfolio_3.jpg" alt="Портфолио 3" />
+                 <a href="/portfolio.html">Посмотреть &raquo;</a>
+             </div>
+             <div class="potfolio_image" id="potfolio_image">
+                 <img src="/img/portfolio_4.jpg" alt="Портфолио 4" />
+                 <a href="/portfolio.html">Посмотреть &raquo;</a>
+             </div>
+         </div>
+    </div>
+    <footer>
+        <div id="footer-content">
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/services.html">Виды услуг</a></li>
+                <li><a href="/portfolio.html">Фотогалерея</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </footer> 
 </body>
 </html>
