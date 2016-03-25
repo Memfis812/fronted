@@ -1,0 +1,120 @@
+﻿body {
+    background-color: #ffffff;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #5d5d5d;
+    text-align:justify;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 1px solid #13cf11;
+    overflow: hidden;
+}
+#logo {
+    width: 240px;
+    height: 90px;
+    float: left; 
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+#logo:hover {
+    transform: rotate(10deg);
+}
+#menu {
+    width: 700px;
+    float: right; 
+    margin-top: 40px;
+}
+
+#menu ul li {
+    float: left; 
+    list-style-type: none; 
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: #13cf11;
+    font-weight: bold;
+    font-size: 12px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active {
+    color: #090909;
+}
+.active_1:hover {
+    color: #090909;
+}
+#content {
+    border-bottom: 1px solid #13cf11;
+    overflow: hidden;
+}
+#Header-image {
+    height: 640px;
+    background-image: url(/img/house_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    width: 960px;
+    margin: auto auto;
+    padding: 32px 0 36px 0;
+    border-top: 1px solid #13cf11;
+}
+#footer-content {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#footer-content a {
+    font-weight: normal;
+    color: #13cf11; 
+}
+#footer-content ul li {
+    float: left;
+    list-style-type: none;
+    border-left: 1px solid #13cf11;
+    padding: 0 7px;
+    line-height: 1;  
+}
+#footer-content ul li:hover {
+    line-height: 2;
+}
+#footer-content ul {
+    overflow: hidden;
+    padding: 0;
+}
+#footer-content ul li:first-child {
+   padding-left: 0;
+   border-left: none;
+}
+#logo-footer {
+   width: 240px;
+   height: 90px;
+   float: right;
+   position: absolute;
+   top: -10px;
+   right: 0;
+}
+#logo-footer:hover {
+   transform: rotate(-10deg);
+}
+#abouticon {
+   float: right;
+}
+#abouticon:hover {
+   transform: rotate(-5deg);
+}
+

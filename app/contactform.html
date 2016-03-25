@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ;charset=UTF-8 />
+    <meta name="description" content="обратная связь" />
+    <link href="/css/contactform.css" rel="stylesheet" type="text/css" />
+    <link href="/img/fav.jpg" rel="shortcut icon" type="image/x-icon" />
+    <title>Обратная связь,MASTERlebedev</title>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="logo">
+				<a href="/index.html" title="На главную страницу"><img src="/img/logotype.jpg" title="Логотип" alt="Логотип" /></a>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="/index.html" class="active_1">ГЛАВНАЯ</a></li>
+					<li><a href="/about.html" class="active_1">О НАС</a></li>
+					<li><a href="/services.html" class="active_1">ВИДЫ УСЛУГ</a></li>
+					<li><a href="/portfolio.html" class="active_1">ФОТОГАЛЕРЕЯ</a></li>
+					<li><a href="/contacts.html" class="active_1">КОНТАКТЫ</a></li>
+					<li><a href="/contactform.html" class="active">ОБРАТНАЯ СВЯЗЬ</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="content">
+			<h1>Форма обратной связи:</h1>
+			<form name="contactform" method="post">
+				<div>
+					<label for="name">Ваше имя:</label>
+					<input id="name" type="text" name="name">
+				</div>
+				<div>
+					<label for="tel">Ваш номер телефона:</label>
+					<input id="tel" type="tel" name="tel">
+				</div>
+				<div>
+					<label for="mail">Ваш e-mail:</label>
+					<input id="mail" type="email" name="email">
+				</div>
+				<div>
+					<select size="9" multiple="multiple" name="build">
+						<option disabled="disabled">Выбирите тип работ</option>
+						<option value="Строительство дома">Строительство дома</option>
+						<option value="Строительство бани">Строительство бани</option>
+						<option value="Строительство хозблока">Строительство хозблока</option>
+						<option value="Строительство колодца">Строительство колодца</option>
+						<option value="Строительство забора">Строительство забора</option>
+						<option value="Ландшафтные работы">Ландшафтные работы</option>
+						<option value="Ремонт квартиры">Ремонт квартиры</option>
+						<option value="Контроль качества строительства">Контроль качества строительства</option>
+					</select>
+				</div>
+				<div>
+					<label for="text">Ваше сообщение:</label>
+					<textarea id="text" name="text"></textarea>
+				</div>
+				<input type="reset" value="Очистить форму">
+				<input type="submit" value="Отправить форму">
+			</form>
+		</div>
+	</div>
+	<footer>
+        <div id="footer-content">
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/services.html">Виды услуг</a></li>
+                <li><a href="/portfolio.html">Фотогалерея</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+            <p>&copy; 2016 MASTERlebedev.Все права защищены.</p>
+            <div id="logo-footer">
+                <img src="/img/logotype.jpg" alt="Логотип" />
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
