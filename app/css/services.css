@@ -1,132 +1,43 @@
-﻿body {
-    background-color: #ffffff;
-    line-height: 20px;
-    margin: 0;
-    padding: 0;
-}
-p {
-     font-size: 12px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: 500;
-     color: #5d5d5d;
-}
-li {
-    font-size: 12px;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: 500;
-     color: #5d5d5d;
-     list-style-type: none;     
-}
-#wrapper {
-    width: 960px;
-    margin: 0 auto;
-}
-header {
-    border-bottom: 1px solid #13cf11;
-    overflow: hidden;
-}
-#logo {
-    width: 240px;
-    height: 90px;
-    float: left; 
-    margin-top: 20px;
-    margin-bottom: 17px;
-}
-#logo:hover {
-    transform: rotate(10deg);
-}
-#menu {
-    width: 700px;
-    float: right; 
-    margin-top: 40px;
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
 }
 
-#menu ul li {
-    float: left; 
-    margin-left: 40px;
-    padding-left: 10px;
-    padding-right: 10px; 
-}
 a {
-    text-decoration: none;
-    color: #13cf11;
-    font-weight: bold;
-    font-size: 12px; 
-    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
-.active {
-    color: #090909;
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
-.active_1:hover {
-    color: #090909;
+
+#menu li,#footer-menu li {
+	float: left;
+	margin-left: 20px;
+	list-style: none;
 }
-#Header-image {
-    height: 640px;
-    background-image: url(/img/house_3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+#header {
+	overflow: hidden;
 }
-#content {
-    border-bottom: 1px solid #13cf11;
-    position: relative; 
+
+#footer: {
+	overflow: hidden;
 }
-footer {
-    width: 960px;
-    margin: auto auto;
-    padding: 32px 0 36px 0;
-    border-top: 1px solid #13cf11;
+
+#footer-menu, #logo-footer {
+	height: 60px;
 }
-#footer-content {
-    width: 960px;
-    margin: 0 auto;
-    position: relative;
+
+#footer-menu {
+	padding: 20px 120px;
 }
-#footer-content a {
-    font-weight: normal;
-    color: #13cf11; 
-}
-#footer-content ul li {
-    float: left;
-    list-style-type: none;
-    border-left: 1px solid #13cf11;
-    padding: 0 7px;
-    line-height: 1;  
-}
-#footer-content ul li:hover {
-    line-height: 2;
-}
-#footer-content ul {
-    overflow: hidden;
-    padding: 0;
-}
-#footer-content ul li:first-child {
-   padding-left: 0;
-   border-left: none;
-}
-#logo-footer {
-    width: 240px;
-    height: 90px;
-    float: right;
-    position: absolute;
-    top: -10px;
-    right: 0;
-}
-#content ul li {
-    background-image: url(/img/check.png);
-    background-repeat: no-repeat;
-    background-position: 0 1px;
-    padding-left: 22px; 
-}
-#services {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-#services:hover {
-    transform: rotate(-5deg);
-}
-#logo-footer:hover {
-    transform: rotate(-10deg);
+
+#logo-img {
+	font-size: 30px;
+	text-align: center;
+	margin: 10px 0; 
 }

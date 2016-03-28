@@ -1,204 +1,48 @@
-﻿body {
-    background-color: #ffffff;
-    line-height: 20px;
-    margin: 0;
-    padding: 0;
-}
-p {
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    color: #5d5d5d;
-}
-#wrapper {
-    width: 960px;
-    margin: 0 auto;
-}
-header {
-    border-bottom: 1px solid #13cf11;
-    overflow: hidden;
-}
-#logo {
-    width: 240px;
-    height: 90px;
-    float: left; 
-    margin-top: 20px;
-    margin-bottom: 17px;
-}
-#logo:hover {
-    transform: rotate(10deg);
-}
-#menu {
-    width: 700px;
-    float: right; 
-    margin-top: 40px;
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
 }
 
-#menu ul li {
-    float: left; 
-    list-style-type: none; 
-    margin-left: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 a {
-    text-decoration: none;
-    color: #13cf11;
-    font-weight: bold;
-    font-size: 12px; 
-    font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
-.active {
-    color: #090909;
-}
-.active_1:hover {
-    color: #090909;
-}
-#Header-image {
-    height: 640px;
-    background-image: url(/img/house.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-}
-#Header-image-text {
-    position:absolute;
-    top: 10px;
-    left: 10px;
-}
-#Header-image-text p {
-    color: #ffffff;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-}
-.text {
-    color: #fe9b00;
-    font-size: 15px;
-    float: right;
-}
-#content {
-    border-bottom: 1px solid #13cf11;
-    border-top: 1px solid #13cf11; 
-    overflow:hidden;
-}
-.content-box {
-    width: 290px;
-    height: 308px;
-    float: left;
-    margin-right: 44px;
-}
-#content-box {
-    margin-right: 0;
-}
-h2 {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border-bottom: 1px solid #13cf11;
-    padding-top: 10px;
-    padding-bottom: 11px;
-    padding-left: 28px;
-    background-image: url(/img/check_1.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 5px; 
-    margin-bottom: 20px;
-}
-.content-box ul  {
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    color: #5d5d5d; 
-}
-.content-box ul li {
-    list-style-type: none;
-    background-image: url(/img/check.png);
-    background-repeat: no-repeat;
-    background-position: 0 2px;
-    padding-left: 28px;
-    margin-bottom: 10px;
-    margin-left: -40px;
 
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
-.potfolio_image {
-    width: 215px;
-    height: 135px; 
-    float: left;
-    margin-right: 33px;
-    position: relative;
+
+#menu li,#footer-menu li {
+	float: left;
+	margin-left: 20px;
+	list-style: none;
 }
-#potfolio_image {
-    margin-right: 0;
+
+#header {
+	overflow: hidden;
 }
-#ourportfolio {
-    border-bottom: none;
-    margin-bottom: 11px;
+
+#footer: {
+	overflow: hidden;
 }
-#portfolio {
-    margin-top: 1px;
-    padding-bottom: 33px;
-    border-bottom: 1px solid #13cf11;
-    overflow: hidden;
+
+#footer-menu, #logo-footer {
+	height: 60px;
 }
-.potfolio_image a {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    color: #090909; 
-    display: block;
-    background-color: #13cf11;
-    padding: 3px 10px;
-    line-height: 1;
+
+#footer-menu {
+	padding: 20px 120px;
 }
-footer {
-    width: 960px;
-    margin: auto auto;
-    padding: 32px 0 36px 0;
-}
-#footer-content {
-    width: 960px;
-    margin: 0 auto;
-    position: relative;
-}
-#footer-content a {
-    font-weight: normal;
-    color: #13cf11; 
-}
-#footer-content ul li {
-    float: left;
-    list-style-type: none;
-    border-left: 1px solid #13cf11;
-    padding: 0 7px;
-    line-height: 1;  
-}
-#footer-content ul li:hover {
-    line-height: 2;
-}
-#footer-content ul {
-    overflow: hidden;
-    padding: 0;
-}
-#footer-content ul li:first-child {
-   padding-left: 0;
-   border-left: none;
-}
-#logo-footer {
-   width: 240px;
-   height: 90px;
-   float: right;
-   position: absolute;
-   top: -10px;
-   right: 0;
-}
-#logo-footer:hover {
-    transform: rotate(-10deg);
+
+#logo-img {
+	font-size: 30px;
+	text-align: center;
+	margin: 10px 0;
+	padding-right: 1px;
 }
 
 
 
 
-
-   
