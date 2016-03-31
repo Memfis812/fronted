@@ -1,6 +1,10 @@
+
+/*Сетка*/
 * {
 	box-sizing: border-box;
 	background-image: url(/img/fon.jpg);
+	margin: 0;
+	padding: 0;
 }
 .row {}
 
@@ -42,3 +46,18 @@ row:after {
 .offset-10 { margin-left: 83.3333333333% ;} 
 .offset-11 { margin-left: 91.6666666667% ;} 
 .offset-12 { margin-left: 100% ;} 
+
+/*---------*/
+
+#header {
+	border-bottom: 1px dashed;
+}
+
+#footer {
+	border-top: 1px dashed;
+}
+
+#menu {
+	margin-top: 20px;
+}
+

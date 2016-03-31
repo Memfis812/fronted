@@ -24,12 +24,8 @@ a {
 	overflow: hidden;
 }
 
-#footer: {
+#footer {
 	overflow: hidden;
-}
-
-#footer-menu, #logo-footer {
-	height: 60px;
 }
 
 #footer-menu {
@@ -40,4 +36,34 @@ a {
 	font-size: 30px;
 	text-align: center;
 	margin: 10px 0; 
+}
+
+#menu ul ul {
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover > ul {
+	display: block;
+}
+
+#menu ul ul li {
+	float: none;
+	margin-top: 5px;
+	margin: 0;
+	width: 80px;
+}
+
+#menu ul {
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+#menu a {
+	font-size: 15px; 
 }
