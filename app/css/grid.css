@@ -1,19 +1,20 @@
 
-/*Сетка*/
-* {
-	box-sizing: border-box;
-	background-image: url(/img/fon.jpg);
-	margin: 0;
-	padding: 0;
+.row {
+	padding: 0 1rem;
 }
-.row {}
+
+.row .row {
+	margin: 0 -1rem;
+}
 
 [class*=col-]  {
 		float: left;
-		padding: 0 10px;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		box-sizing: border-box;
 	}
 
-row:after {
+.row:after {
 	content: ".";
 	display: block;
 	clear: both;
@@ -46,18 +47,3 @@ row:after {
 .offset-10 { margin-left: 83.3333333333% ;} 
 .offset-11 { margin-left: 91.6666666667% ;} 
 .offset-12 { margin-left: 100% ;} 
-
-/*---------*/
-
-#header {
-	border-bottom: 1px dashed;
-}
-
-#footer {
-	border-top: 1px dashed;
-}
-
-#menu {
-	margin-top: 20px;
-}
-
